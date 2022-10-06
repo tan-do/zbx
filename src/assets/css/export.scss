@@ -1,0 +1,16 @@
+//@import './color.scss';
+
+//提供scss变量给js
+:export {
+  title: $title;
+  content: $content;
+  sub-color: $sub-color;
+  disabled: $disabled;
+  border: $border;
+  divider: $divider;
+  background: $background;
+
+  blue: $blue;
+  light: $light;
+  dark:$dark;
+}

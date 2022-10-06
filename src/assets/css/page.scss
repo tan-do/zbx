@@ -1,0 +1,100 @@
+.web {
+    width: 100%;
+    min-height: calc(100vh - 168px) !important;
+    background: #eef0f5;
+}
+
+.web-title {
+    margin-bottom: 20px;
+    text-align: left;
+    text-indent: 2em;
+    font-size: 16px;
+    font-weight: 500;
+    color: #515a6e;
+}
+
+.switch {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.card {
+    width: 260px;
+    font-size: 13px;
+    background-color: #f3f5f8;
+    color: #515a6e;
+    text-align: left;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    border: 1px solid #fff;
+    box-shadow: 8px 8px 20px 0 rgb(55 99 170 / 10%), -8px -8px 20px 0 #fff;
+    position: relative;
+
+    .admin {
+        width: 100%;
+    }
+
+    .card-title {
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .card-img {
+        vertical-align: middle;
+        float: left;
+        margin-top: 5px;
+    }
+
+    .card-desc {
+
+        height: 20px;
+        margin-left: 6px;
+        font-size: 12px;
+    }
+
+    .card-del {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        padding: 5px;
+        z-index: 999;
+    }
+
+    .card-edit{
+        position: absolute;
+        top: 40px;
+        right: 1px;
+        padding: 5px;
+        z-index: 999;
+    }
+
+    .card-tuijian{
+        position: absolute;
+        top: 5px;
+        right: 0px;
+        z-index: 99;
+    }
+}
+
+
+.card-pad {
+    padding: 20px;
+
+    img {
+        display: inline-block;
+        height: 32px;
+        max-width: 32px;
+        margin-right: 10px;
+    }
+}
+
+.aside {
+    width: 120px;
+    height: 200px;
+    position: fixed;
+    padding: 20px;
+    top: 50%;
+    left:0;
+}
